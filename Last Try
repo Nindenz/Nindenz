@@ -118,14 +118,6 @@ af = "Afrikaans",
     zu = "Zulu"
 --]]
 Print("ChatTranslatorWORKING")--
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "END";
-	Text = "All Script Execute";
-        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
-Print("END SCRIPT")
-
 local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
 local g = game
 local w = g.Workspace
