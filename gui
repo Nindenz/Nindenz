@@ -1,10 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Roblox", "Sentinel")
 
+----------------------------------------Script
 local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Fun")
-Script:NewButton("FastWalk", "You Look Flash", function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+Script:NewSlider("Speed", "Speed", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Script:NewSlider("JumpPo", "Jump", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 Script:NewButton("EquinoxHub", "Button", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/wzB1Qh78'))()
@@ -19,6 +23,7 @@ Script:NewButton("Opfinality", "fe script", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/3axt0ia1",true))()
 end)
 
+----------------------------------------Protection
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
 Bypass:NewButton("netless", "for fe", function()
@@ -31,6 +36,7 @@ Bypass:NewButton("Anti b/k", "Button", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/HTJ3JrHT'))()
 end)
 
+----------------------------------------Game
 local Tab = Window:NewTab("Game")
 local Game = Tab:NewSection("PrisonLife")
 Game:NewButton("prisonlife 1", "plg admin fcar", function()
