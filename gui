@@ -25,6 +25,10 @@ Script:NewButton("InfYield", "This is fe", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+Script:NewButton("Btools", "Button", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu",true))()
+end)
+
 ----------------------------------------Protection-
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
@@ -69,6 +73,10 @@ end)
 
 Game:NewButton("DexHub", "This is a hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BinaryDex/DexHub/main/Init"))()
+end)
+
+Game:NewButton("FlyCar", "Super Car", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3biW92gZ"))()
 end)
 
 ----------------------------------------LocalPlayer-
