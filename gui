@@ -17,6 +17,10 @@ Script:NewButton("Rejoin", "Rejoin game you play", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
 end)
 
+Script:NewButton("Spectate", "view player", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WgpJfMGS",true))()
+end)
+
 ----------------------------------------Protection-
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
