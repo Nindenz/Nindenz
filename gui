@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Roblox Hack (Version-1.0)", "Ocean")
+local Window = Library.CreateLib("Roblox Hack (Version-1.1)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -59,6 +59,9 @@ workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
 end)
 
+Game:NewButton("DexHub", "This is a hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BinaryDex/DexHub/main/Init"))()
+end)
 
 ----------------------------------------LocalPlayer-
 local Tab = Window:NewTab("LocalPlayer")
@@ -97,4 +100,11 @@ FreeHub:NewButton("Dark Universal", "button", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/darkk", true))()
 end)
 
+----------------------------------------Setting-
+local Tab = Window:NewTab("Setting")
+local Setting = Tab:NewSection("Keybind")
+
+Setting:NewKeybind("Keybing ui", "Yes Read", Enum.KeyCode.P, function()
+	Library:ToggleUI()
+end)
 
