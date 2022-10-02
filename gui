@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Roblox Hack (Version-1.1)", "Ocean")
+local Window = Library.CreateLib("Roblox Hack (Version-1.5)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -19,6 +19,10 @@ end)
 
 Script:NewButton("Spectate", "view player", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WgpJfMGS",true))()
+end)
+
+Script:NewButton("InfYield", "This is fe", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 ----------------------------------------Protection-
@@ -83,6 +87,9 @@ LocalPlayer:NewButton("Reset s/j", "reset speed jump", function()
  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
+LocalPlayer:NewButton("Respawn", "reset character", function()
+game.Players.LocalPlayer.Character.Humanoid:Destroy()
+end)
 
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
@@ -122,15 +129,12 @@ Setting:NewTextBox("JumpPower", "Jump", function(txt)
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = (txt)
 end)
 
-Setting:NewTextBox("Admin (first cmds))", "write in txt to admin", function(cmds)
-	print("admin")
-	print("fly")
-end)
-
 ---------------------End--Script-
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Roblox Hack (Version-1.1)";
+Text = "Roblox Hack (Version-1.5)";
 Duration = 5;
 })
+
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
