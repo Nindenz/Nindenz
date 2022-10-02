@@ -118,6 +118,15 @@ Setting:NewTextBox("WalkSpeed", "Speed", function(txt)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (txt)
 end)
 
+Setting:NewTextBox("JumpPower", "Jump", function(txt)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = (txt)
+end)
+
+Setting:NewTextBox("Admin (first cmds))", "write in txt to admin", function(cmds)
+	print("admin")
+	print("fly")
+end)
+
 ---------------------End--Script-
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
