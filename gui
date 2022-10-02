@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Roblox old script", "Ocean")
+local Window = Library.CreateLib("Roblox Hack (Version-1.0)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -11,10 +11,6 @@ end)
 
 Script:NewButton("UFling", "Near player to fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/GfwkiUTV", true))()
-end)
-
-Script:NewButton("Opfinality", "fe script", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/3axt0ia1",true))()
 end)
 
 Script:NewButton("Rejoin", "Rejoin game you play", function()
@@ -46,22 +42,18 @@ local Tab = Window:NewTab("Game")
 local Game = Tab:NewSection("PrisonLife")
 
 Game:NewButton("prisonlife 1", "PLG GUI V3.2", function()
-if game.PlaceId == 155615604 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20GUIs/PLG%20v3.2.lua", true))()
 end)
 
 Game:NewButton("FeBaseBallBat", "Kill", function()
-if game.PlaceId == 155615604 then
 loadstring(game:HttpGet("https://pastebin.com/raw/xUXw7AhP", true))()
 end)
 
 Game:NewButton("CrashServer", "Crash", function()
-if game.PlaceId == 155615604 then
 loadstring(game:HttpGet("https://pastebin.com/raw/0dpA6Eer", true))()
 end)
 
 Game:NewButton("GiveAllGuns", "Give guns To You", function()
-if game.PlaceId == 155615604 then
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
