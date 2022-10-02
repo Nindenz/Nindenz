@@ -108,3 +108,10 @@ Setting:NewKeybind("Keybing ui", "Yes Read", Enum.KeyCode.P, function()
 	Library:ToggleUI()
 end)
 
+---------------------End--Script-
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hack"; -- the title 
+Text = "Roblox Hack (Version-1.1)"; -- what the text says 
+Duration = 5; -- how long the notification should in secounds
+})
