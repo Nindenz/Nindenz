@@ -4,6 +4,6 @@ local Window = Library.CreateLib("Keys", "synapse")
 local Tab = Window:NewTab("Main")
 local Main = Tab:NewSection("Owner Key")
 
-Main:NewTextBox("Key", "KeySystem", function(key)
+Main:NewTextBox("Key", "KeySystem", owner(key)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui"))()
 end)
