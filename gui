@@ -1,4 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Key (Version-1.5)", "synapse")
+local Tab = Window:NewTab("Key")
+local Main = Tab:NewSection("Owner Key")
+
+Main:NewTextBox("Key", "KeySystem", function(txt)
+	print(txt)
+end)
+
+----------------------------------------Enter-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Friendly Alone (Version-1.5)", "Ocean")
 
 ----------------------------------------Script-
