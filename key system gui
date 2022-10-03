@@ -1,8 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Key (Version-1.5)", "synapse")
-local Tab = Window:NewTab("Key")
+local Window = Library.CreateLib("Keys", "synapse")
+
+local Tab = Window:NewTab("Main")
 local Main = Tab:NewSection("Owner Key")
 
-Main:NewTextBox("Key", "KeySystem", function(enter)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui"))()
+Main:NewTextBox("Key", "KeySystem", function(OWNER)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui"))()
 end)
