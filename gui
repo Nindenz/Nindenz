@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Roblox Hack (Version-1.5)", "Ocean")
+local Window = Library.CreateLib("Friendly Alone (Version-1.5)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -29,6 +29,14 @@ Script:NewButton("Btools", "Button", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu",true))()
 end)
 
+Script:NewButton("Esp", "This can see everyone", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+end)
+
+Script:NewButton("noclip gui", "through wall", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9LBsfRkD",true))()
+end)
+
 ----------------------------------------Protection-
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
@@ -47,6 +55,10 @@ end)
 
 Bypass:NewButton("Anti lag", "Button", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/DuWFCSNb'))()
+end)
+
+Bypass:NewButton("country Translate", "you don't know other people's language (execute translate to know)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/translate'))()
 end)
 
 ----------------------------------------Game-
@@ -95,8 +107,13 @@ LocalPlayer:NewButton("Reset s/j", "reset speed jump", function()
  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
+
 LocalPlayer:NewButton("Respawn", "reset character", function()
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
+end)
+
+LocalPlayer:NewButton("GodMode", "INF health with respawn", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jyVVfCGk",true))()
 end)
 
 ----------------------------------------Hub-G&S-
