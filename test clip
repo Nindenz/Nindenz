@@ -1,0 +1,6 @@
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+	end
+end)
