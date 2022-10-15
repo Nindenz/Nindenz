@@ -117,6 +117,10 @@ LocalPlayer:NewButton("GodMode", "INF health with respawn", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jyVVfCGk",true))()
 end)
 
+LocalPlayer:NewTextBox("TpToPlayer", "TextboxInfo", function(txt)
+
+end)
+
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
