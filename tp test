@@ -1,0 +1,5 @@
+local me = game.Players.LocalPlayer.Character
+ 
+local targetplayer = game.Workspace.(txt).HumanoidRootPart
+ 
+me.HumanoidRootPart.CFrame = CFrame.new(targetplayer.Position.X, targetplayer.Position.Y, targetplayer.Position.Z)
