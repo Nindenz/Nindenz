@@ -92,6 +92,12 @@ Game:NewButton("FlyCar", "Super Car", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/3biW92gZ"))()
 end)
 
+local Game = Tab:NewSection("Chaos")
+
+Game:NewButton("Chaos gui", "Super Cools", function()
+loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+
 ----------------------------------------LocalPlayer-
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayer = Tab:NewSection("Local")
