@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Friendly Alone (Version-1.5)", "Ocean")
+local Window = Library.CreateLib("Friendly Alone (Version-1.7)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -169,7 +169,7 @@ end)
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Roblox Hack (Version-1.5)";
+Text = "Roblox Hack (Version-1.7)";
 Duration = 5;
 })
 
