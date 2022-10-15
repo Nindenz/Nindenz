@@ -95,7 +95,7 @@ end)
 local Game = Tab:NewSection("Chaos")
 
 Game:NewButton("Chaos gui", "Super Cools", function()
-  loadstring(game:HttpGet("https://pastebin.com/raw/Ca6d7acv"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ca6d7acv"))()
 end)
 
 ----------------------------------------LocalPlayer-
