@@ -165,6 +165,12 @@ Setting:NewTextBox("JumpPower", "Jump", function(txt)
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = (txt)
 end)
 
+local Setting = Tab:NewSection("Executor")
+
+Setting:NewButton("Synapse X", "Executor?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
+end)
+
 ---------------------End--Script-
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
