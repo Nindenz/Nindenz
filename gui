@@ -147,6 +147,10 @@ FreeHub:NewButton("Dark Universal", "button", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/darkk", true))()
 end)
 
+FreeHub:NewButton("Kater hub", "button", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
+end)
+
 ----------------------------------------Setting-
 local Tab = Window:NewTab("Setting")
 local Setting = Tab:NewSection("Keybind")
