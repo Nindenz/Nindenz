@@ -1,0 +1,69 @@
+--By BinaryH
+
+
+-- Instances:
+
+local VersusExploitHub = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Nind_home = Instance.new("TextButton")
+local SynapseX = Instance.new("TextButton")
+
+--Properties:
+
+VersusExploitHub.Name = "VersusExploitHub"
+VersusExploitHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = VersusExploitHub
+Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame.Position = UDim2.new(0.397790045, 0, 0.346420318, 0)
+Frame.Size = UDim2.new(0, 310, 0, 134)
+Frame.Active = true
+Frame.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(-0.000831653248, 0, -0.00177717209, 0)
+Title.Size = UDim2.new(0, 310, 0, 48)
+Title.Font = Enum.Font.SpecialElite
+Title.Text = "Nindenz"
+Title.TextColor3 = Color3.fromRGB(184, 184, 184)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextStrokeTransparency = 0.000
+Title.TextWrapped = true
+Title.Draggable = true
+
+Nind_home.Name = "Nind_home"
+Nind_home.Parent = Frame
+Nind_home.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Nind_home.BorderSizePixel = 0
+Nind_home.Position = UDim2.new(0.0290322565, 0, 0.514750481, 0)
+Nind_home.Size = UDim2.new(0, 132, 0, 44)
+Nind_home.Font = Enum.Font.SourceSans
+Nind_home.Text = "Nind_home"
+Nind_home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nind_home.TextScaled = true
+Nind_home.TextSize = 14.000
+Nind_home.TextWrapped = true
+Nind_home.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui'))()
+end)
+
+SynapseX.Name = "SynapseX"
+SynapseX.Parent = Frame
+SynapseX.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+SynapseX.BorderSizePixel = 0
+SynapseX.Position = UDim2.new(0.541935444, 0, 0.514750481, 0)
+SynapseX.Size = UDim2.new(0, 132, 0, 44)
+SynapseX.Font = Enum.Font.SourceSans
+SynapseX.Text = "SynapseX"
+SynapseX.TextColor3 = Color3.fromRGB(0, 0, 0)
+SynapseX.TextScaled = true
+SynapseX.TextSize = 14.000
+SynapseX.TextWrapped = true
+SynapseX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
+end)
