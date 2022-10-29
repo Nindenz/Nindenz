@@ -46,7 +46,8 @@ Nind_home.TextScaled = true
 Nind_home.TextSize = 14.000
 Nind_home.TextWrapped = true
 Nind_home.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui'))()
+print'Home'
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui'))()
 end)
 
 SynapseX.Name = "SynapseX"
@@ -62,5 +63,6 @@ SynapseX.TextScaled = true
 SynapseX.TextSize = 14.000
 SynapseX.TextWrapped = true
 SynapseX.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
+print'SynapseX'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
 end)
