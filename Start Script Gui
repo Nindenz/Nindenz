@@ -1,9 +1,6 @@
---By BinaryH
-
-
 -- Instances:
 
-local VersusExploitHub = Instance.new("ScreenGui")
+local Hub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Nind_home = Instance.new("TextButton")
@@ -11,10 +8,10 @@ local SynapseX = Instance.new("TextButton")
 
 --Properties:
 
-VersusExploitHub.Name = "VersusExploitHub"
-VersusExploitHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Hub.Name = "Hub"
+Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-Frame.Parent = VersusExploitHub
+Frame.Parent = Hub
 Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
 Frame.Position = UDim2.new(0.397790045, 0, 0.346420318, 0)
 Frame.Size = UDim2.new(0, 310, 0, 134)
