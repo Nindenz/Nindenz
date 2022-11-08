@@ -94,8 +94,12 @@ end)
 
 local Game = Tab:NewSection("Chaos")
 
-Game:NewButton("Chaos gui", "Super Cools", function()
+Game:NewButton("Bluntman", "g", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Ca6d7acv"))()
+end)
+
+Game:NewButton("4 gui", "chaos version", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1HuVSGVQ"))()
 end)
 
 ----------------------------------------LocalPlayer-
