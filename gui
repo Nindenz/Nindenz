@@ -94,7 +94,7 @@ end)
 
 local Game = Tab:NewSection("Chaos")
 
-Game:NewButton("Bluntman", "g", function()
+Game:NewButton("ro-flux", "g", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Ca6d7acv"))()
 end)
 
