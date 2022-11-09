@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Friendly Alone (Version-1.7)", "Ocean")
+local Window = Library.CreateLib("Ro_LoL (Version-1.7)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -179,11 +179,18 @@ Setting:NewButton("Synapse X", "Executor?", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
 end)
 
+----------------------------------------Fe-
+local Tab = Window:NewTab("Fe")
+local Fe = Tab:NewSection("Fling")
+Fe:NewButton("Among Us", "you will be among us", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Among%20us%20T%20gu", true))()
+end)
+
 ---------------------End--Script-
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Roblox Hack (Version-1.7)";
+Text = "Ro_LoL (Version-1.7)";
 Duration = 5;
 })
 
