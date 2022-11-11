@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_Ok_LoL (Version-1.7)", "Ocean")
+local Window = Library.CreateLib("Ro_Ok_LoL (Version-1.9)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -26,7 +26,7 @@ Script:NewButton("InfYield", "This is fe", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-Script:NewButton("Btools", "Button", function()
+Script:NewButton("Btools", "Delete,Copy,Move Tools", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu",true))()
 end)
 
@@ -153,6 +153,17 @@ FreeHub:NewButton("Kater hub", "Hub Other Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
 end)
 
+----------------------------------------Admin-
+local Tab = Window:NewTab("Admin Command")
+
+Admin:NewButton("InfYield", "Admin Commands Fe", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Admin:NewButton("Cmd-X", "Admin Fun", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+end)
+
 ----------------------------------------Setting-
 local Tab = Window:NewTab("Setting")
 local Setting = Tab:NewSection("Keybind")
@@ -180,6 +191,7 @@ end)
 ----------------------------------------Fe-
 local Tab = Window:NewTab("Fe")
 local Fe = Tab:NewSection("Fling")
+
 Fe:NewButton("Among Us", "you can be among us", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Among%20us%20T%20gu", true))()
 end)
@@ -188,10 +200,9 @@ end)
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Ro_Ok_LoL (Version-1.7)";
+Text = "Ro_Ok_LoL (Version-1.9)";
 Duration = 5;
 })
 
-game.Players.LocalPlayer.Character.Humanoid.Health = 0
-
 print'Working'
+print'Welcome'
