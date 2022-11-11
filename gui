@@ -120,6 +120,8 @@ LocalPlayer:NewButton("Reset s/j", "reset speed jump", function()
 end)
 
 LocalPlayer:NewButton("Respawn", "reset character", function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
 end)
 
