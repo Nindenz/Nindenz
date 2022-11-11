@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_LoL (Version-1.7)", "Ocean")
+local Window = Library.CreateLib("Ro_Ok_LoL (Version-1.7)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -129,10 +129,6 @@ LocalPlayer:NewButton("GodMode", "INF health with respawn", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jyVVfCGk",true))()
 end)
 
-LocalPlayer:NewTextBox("TpToPlayer", "TextboxInfo", function(txt)
-
-end)
-
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
@@ -153,7 +149,7 @@ FreeHub:NewButton("Dark Universal", "button", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/darkk", true))()
 end)
 
-FreeHub:NewButton("Kater hub", "button", function()
+FreeHub:NewButton("Kater hub", "Hub Other Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
 end)
 
@@ -161,7 +157,7 @@ end)
 local Tab = Window:NewTab("Setting")
 local Setting = Tab:NewSection("Keybind")
 
-Setting:NewKeybind("Keybing ui", "Yes Read", Enum.KeyCode.P, function()
+Setting:NewKeybind("Keybing ui", "Hide/show ui Hack", Enum.KeyCode.P, function()
 	Library:ToggleUI()
 end)
 
@@ -177,14 +173,14 @@ end)
 
 local Setting = Tab:NewSection("Executor")
 
-Setting:NewButton("Synapse X", "Executor?", function()
+Setting:NewButton("Synapse X", "Executor Script Execute", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
 end)
 
 ----------------------------------------Fe-
 local Tab = Window:NewTab("Fe")
 local Fe = Tab:NewSection("Fling")
-Fe:NewButton("Among Us", "you will be among us", function()
+Fe:NewButton("Among Us", "you can be among us", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Among%20us%20T%20gu", true))()
 end)
 
@@ -192,7 +188,7 @@ end)
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Ro_LoL (Version-1.7)";
+Text = "Ro_Ok_LoL (Version-1.7)";
 Duration = 5;
 })
 
