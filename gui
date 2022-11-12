@@ -199,7 +199,7 @@ end)
 
 ----------------------------------------NHelp-
 local Tab = Window:NewTab("NHelp")
-local NHelp = Tab:NewSection("AmongUs ?.reset you character from menu for back")
+local NHelp = Tab:NewSection("Fe Script ?.reset you character from menu for back")
 
 local NHelp = Tab:NewSection("rejoin script seems a bit broken")
 local NHelp = Tab:NewSection("Fe Mouse Fling .E. To Move")
