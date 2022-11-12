@@ -39,7 +39,7 @@ local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
 
 Bypass:NewButton("netless", "For Fe", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Netless'))()
+loadstring(game:HttpGet('https://github.com/Nindenz/Nindenz/blob/main/Anti%20Fling%20By%20Hacker%20Test'))()
 end)
 
 Bypass:NewButton("AntiFling", "you will can't fling by hacker", function()
@@ -193,11 +193,16 @@ Fe:NewButton("Among Us", "you can be among us", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Among%20us%20T%20gu", true))()
 end)
 
+Fe:NewButton("Fe Mouse Fling", ".E. To Fling", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4CzHgSGh", true))()
+end)
+
 ----------------------------------------NHelp-
 local Tab = Window:NewTab("NHelp")
 local NHelp = Tab:NewSection("AmongUs ?.reset you character from menu for back")
 
 local NHelp = Tab:NewSection("rejoin script seems a bit broken")
+local NHelp = Tab:NewSection("Fe Mouse Fling .E. To Move")
 
 ----------------------------------------Owner-
 local Tab = Window:NewTab("Owner")
@@ -214,4 +219,4 @@ Duration = 5;
 })
 
 print'Working'
-print'Welcome (RO_OK_LOL'
+print'Welcome (RO_OK_LOL)'
