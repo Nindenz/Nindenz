@@ -151,7 +151,7 @@ end)
 
 ----------------------------------------Admin-
 local Tab = Window:NewTab("Admin Command")
-local Admin = Tab:NewSection("Free Adming")
+local Admin = Tab:NewSection("Free Admin")
 
 Admin:NewButton("InfYield", "Admin Commands Fe", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
