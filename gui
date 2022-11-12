@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_Ok_LoL (Version-1.9)", "Ocean")
+local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Ocean")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -198,6 +198,12 @@ local Tab = Window:NewTab("NHelp")
 local NHelp = Tab:NewSection("AmongUs ?.reset you character from menu for back")
 
 local NHelp = Tab:NewSection("rejoin script seems a bit broken")
+
+----------------------------------------Owner-
+local Tab = Window:NewTab("Owner")
+local NHelp = Tab:NewSection("The creator of this script is (NinDenZ)")
+local NHelp = Tab:NewSection("Roblox Account Name:Fay11357")
+local NHelp = Tab:NewSection("https://web.roblox.com/users/3566287908/")
 
 ---------------------End--Script-
 wait(0.2)
