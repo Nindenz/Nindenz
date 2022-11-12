@@ -39,11 +39,11 @@ local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
 
 Bypass:NewButton("netless", "For Fe", function()
-loadstring(game:HttpGet('https://github.com/Nindenz/Nindenz/blob/main/Anti%20Fling%20By%20Hacker%20Test'))()
+loadstring(game:HttpGet('https://github.com/Nindenz/Nindenz/blob/main/Netless'))()
 end)
 
 Bypass:NewButton("AntiFling", "you will can't fling by hacker", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/PuAwMhXK'))()
+loadstring(game:HttpGet('https://github.com/Nindenz/Nindenz/blob/main/Anti%20Fling%20By%20Hacker%20Test'))()
 end)
 
 Bypass:NewButton("Anti b/k", "anti ban kick", function()
