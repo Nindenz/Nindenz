@@ -102,11 +102,11 @@ end)
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayer = Tab:NewSection("Local")
 
-LocalPlayer:NewSlider("Speed", "Speed", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+LocalPlayer:NewSlider("Speed", "Change You WalkS", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-LocalPlayer:NewSlider("JumpPo", "Jump", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
+LocalPlayer:NewSlider("JumpPo", "Jump To High", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
