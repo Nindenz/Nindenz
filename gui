@@ -6,24 +6,20 @@ local Window = Library.CreateLib("Ro_Ok_LoL (Version-1.9)", "Ocean")
 local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Fun")
 
-Script:NewButton("Punch", "Punch player to fling", function()
+Script:NewButton("Punch", "if you hit people,will be fling", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YPZ0wNaw'))()
 end)
 
-Script:NewButton("UFling", "Near player to fling", function()
+Script:NewButton("UFling", "if you come closer people will fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/GfwkiUTV", true))()
 end)
 
-Script:NewButton("Rejoin", "Rejoin game you play", function()
+Script:NewButton("Rejoin", "Rejoin game", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
 end)
 
-Script:NewButton("Spectate", "view player", function()
+Script:NewButton("Spectate", "Can see everyoner", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WgpJfMGS",true))()
-end)
-
-Script:NewButton("InfYield", "This is fe", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 Script:NewButton("Btools", "Delete,Copy,Move Tools", function()
@@ -42,23 +38,23 @@ end)
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
 
-Bypass:NewButton("netless", "for fe", function()
+Bypass:NewButton("netless", "For Fe", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Netless'))()
 end)
 
-Bypass:NewButton("AntiFling", "Button", function()
+Bypass:NewButton("AntiFling", "you will can't fling by hacker", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/PuAwMhXK'))()
 end)
 
-Bypass:NewButton("Anti b/k", "Button", function()
+Bypass:NewButton("Anti b/k", "anti ban kick", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/HTJ3JrHT'))()
 end)
 
-Bypass:NewButton("Anti lag", "Button", function()
+Bypass:NewButton("Anti lag", "remove lag", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/DuWFCSNb'))()
 end)
 
-Bypass:NewButton("country Translate", "you don't know other people's language (execute translate to know)", function()
+Bypass:NewButton("country Translate", "Translate Chat player", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/translate'))()
 end)
 
@@ -70,21 +66,21 @@ Game:NewButton("prisonlife 1", "PLG GUI V3.2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20GUIs/PLG%20v3.2.lua", true))()
 end)
 
-Game:NewButton("FeBaseBallBat", "Kill", function()
+Game:NewButton("FeBaseBallBat", "Kill player with baseballbat", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/xUXw7AhP", true))()
 end)
 
-Game:NewButton("CrashServer", "Crash", function()
+Game:NewButton("CrashServer", "lag all server for people crash", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/0dpA6Eer", true))()
 end)
 
-Game:NewButton("GiveAllGuns", "Give guns To You", function()
+Game:NewButton("GiveAllGuns", "Give all guns To You", function()
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP)
 workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP)
 end)
 
-Game:NewButton("DexHub", "This is a hub", function()
+Game:NewButton("DexHub", "Best Hub For Prison Life", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BinaryDex/DexHub/main/Init"))()
 end)
 
@@ -94,7 +90,7 @@ end)
 
 local Game = Tab:NewSection("Chaos")
 
-Game:NewButton("ro-flux", "g", function()
+Game:NewButton("ro-flux", "Dupe,Gamepass,killplayer", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Ca6d7acv"))()
 end)
 
@@ -125,7 +121,7 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
 game.Players.LocalPlayer.Character.Humanoid:Destroy()
 end)
 
-LocalPlayer:NewButton("GodMode", "INF health with respawn", function()
+LocalPlayer:NewButton("GodMode", "Health To God", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jyVVfCGk",true))()
 end)
 
@@ -133,7 +129,7 @@ end)
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
 
-FreeHub:NewButton("EquinoxHub", "Button", function()
+FreeHub:NewButton("EquinoxHub", "all fe script hub", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/wzB1Qh78'))()
 end)
 
@@ -155,6 +151,7 @@ end)
 
 ----------------------------------------Admin-
 local Tab = Window:NewTab("Admin Command")
+local Admin = Tab:NewSection("Free Adming")
 
 Admin:NewButton("InfYield", "Admin Commands Fe", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -195,6 +192,12 @@ local Fe = Tab:NewSection("Fling")
 Fe:NewButton("Among Us", "you can be among us", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Among%20us%20T%20gu", true))()
 end)
+
+----------------------------------------NHelp-
+local Tab = Window:NewTab("NHelp")
+local NHelp = Tab:NewSection("AmongUs ?.reset you character from menu for back")
+
+local NHelp = Tab:NewSection("rejoin script seems a bit broken")
 
 ---------------------End--Script-
 wait(0.2)
