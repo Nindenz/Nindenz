@@ -58,6 +58,10 @@ Bypass:NewButton("country Translate", "Translate Chat player", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/translate'))()
 end)
 
+Bypass:NewButton("Anti Cheat Bypass", "IDK", function()
+
+end)
+
 ----------------------------------------Game-
 local Tab = Window:NewTab("Game")
 local Game = Tab:NewSection("PrisonLife")
