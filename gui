@@ -225,7 +225,7 @@ Owner:NewLabel("Theme Color Changed")
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Ro_Ok_LoL (Version-2.3)";
+Text = "Ro_Ok_LoL (Version-2.5)";
 Duration = 5;
 })
 
