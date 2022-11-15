@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Serpent")
+local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.5)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -219,6 +219,7 @@ Owner:NewLabel("What New")
 Owner:NewLabel("[+]Added NHelp and owner Tabs")
 Owner:NewLabel("[+]Added Anti-Cheat Bypass")
 Owner:NewLabel("[+]Added 1 fe mouse fling")
+Owner:NewLabel("Theme Color Changed")
 
 ---------------------End--Script-
 wait(0.2)
