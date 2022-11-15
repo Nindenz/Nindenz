@@ -222,11 +222,11 @@ Owner:NewLabel("[+]Added 1 fe mouse fling")
 Owner:NewLabel("Theme Color Changed")
 
 ---------------------End--Script-
-wait(0.2)
+wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
 Text = "Ro_Ok_LoL (Version-2.5)";
-Duration = 5;
+Duration = 10;
 })
 
 print'Working'
