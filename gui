@@ -1,6 +1,9 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Ocean")
+----------------------------------------Home-
+local Tab = Window:NewTab("Home")
+local Home = Tab:NewSection("script new update now: 15/11/22")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
