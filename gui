@@ -1,9 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Ocean")
-----------------------------------------Home-
-local Tab = Window:NewTab("Home")
-local Home = Tab:NewSection("script new update now: 15/11/22")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -213,9 +210,12 @@ local NHelp = Tab:NewSection("Fe Mouse Fling .E. To Move")
 
 ----------------------------------------Owner-
 local Tab = Window:NewTab("Owner")
-local NHelp = Tab:NewSection("The creator of this script is (NinDenZ)")
-local NHelp = Tab:NewSection("Roblox Account Name:Fay11357")
-local NHelp = Tab:NewSection("https://web.roblox.com/users/3566287908/")
+local Owner = Tab:NewSection("The creator of this script is (NinDenZ)")
+local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
+local Owner = Tab:NewSection("https://web.roblox.com/users/3566287908/")
+local Owner = Tab:NewSection("script new update now: 15/11/22")
+local Owner = Tab:NewSection("script new update now: 15/11/22")
+
 
 ---------------------End--Script-
 wait(0.2)
