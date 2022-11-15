@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Ocean")
+local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.3)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -214,14 +214,17 @@ local Owner = Tab:NewSection("The creator of this script is (NinDenZ)")
 local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
 local Owner = Tab:NewSection("https://web.roblox.com/users/3566287908/")
 local Owner = Tab:NewSection("script new update now: 15/11/22")
-local Owner = Tab:NewSection("script new update now: 15/11/22")
 
+Owner:NewLabel("What New")
+Owner:NewLabel("[+]Added NHelp and owner Tabs")
+Owner:NewLabel("[+]Added Anti-Cheat Bypass")
+Owner:NewLabel("[+]Added 1 fe mouse fling")
 
 ---------------------End--Script-
 wait(0.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hack"; -- the title 
-Text = "Ro_Ok_LoL (Version-1.9)";
+Text = "Ro_Ok_LoL (Version-2.3)";
 Duration = 5;
 })
 
