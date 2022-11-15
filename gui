@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Ro_Ok_LoL (Version-2.5)", "Serpent")
+local Window = Library.CreateLib("R_O_L (Version-2.5)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -230,4 +230,4 @@ Duration = 10;
 })
 
 print'Working'
-print'Welcome (RO_OK_LOL)'
+print'Welcome (R_O_L)'
