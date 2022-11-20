@@ -201,6 +201,11 @@ Fe:NewButton("Fe Mouse Fling", ".E. To Fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/4CzHgSGh", true))()
 end)
 
+
+Fe:NewButton("Human Cat", ".E. To Fling", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
+end)
+
 ----------------------------------------NHelp-
 local Tab = Window:NewTab("NHelp")
 local NHelp = Tab:NewSection("Fe Script ?.reset you character from menu for back")
@@ -213,13 +218,10 @@ local Tab = Window:NewTab("Owner")
 local Owner = Tab:NewSection("The creator of this script is (NinDenZ)")
 local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
 local Owner = Tab:NewSection("https://web.roblox.com/users/3566287908/")
-local Owner = Tab:NewSection("script new update now: 15/11/22")
+local Owner = Tab:NewSection("script new update now: 20/11/2022")
 
 Owner:NewLabel("What New")
-Owner:NewLabel("[+]Added NHelp and owner Tabs")
-Owner:NewLabel("[+]Added Anti-Cheat Bypass")
-Owner:NewLabel("[+]Added 1 fe mouse fling")
-Owner:NewLabel("Theme Color Changed")
+Owner:NewLabel("[+]New Fe!")
 
 ---------------------End--Script-
 wait(0.5)
@@ -229,5 +231,5 @@ Text = "Ro_Ok_LoL (Version-2.5)";
 Duration = 10;
 })
 
-print'Working'
+print'Working!'
 print'Welcome (R_O_L)'
