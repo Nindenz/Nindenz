@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("R_O_L (Version-2.5)", "Serpent")
+local Window = Library.CreateLib("XThe_Future_GoneX (Version-2.5)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -247,8 +247,8 @@ Owner:NewLabel("[+]New Fe!")
 ---------------------End--Script-
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Hack"; -- the title 
-Text = "Ro_Ok_LoL (Version-2.5)";
+Title = "Now"; -- the title 
+Text = "XThe_Future_GoneX (Version-2.5)";
 Duration = 10;
 })
 
