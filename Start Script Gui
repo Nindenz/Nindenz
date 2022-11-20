@@ -3,7 +3,7 @@
 local Hub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
-local Nind_home = Instance.new("TextButton")
+local Home = Instance.new("TextButton")
 local SynapseX = Instance.new("TextButton")
 
 --Properties:
@@ -33,19 +33,19 @@ Title.TextStrokeTransparency = 0.000
 Title.TextWrapped = true
 Title.Draggable = true
 
-Nind_home.Name = "Nind_home"
-Nind_home.Parent = Frame
-Nind_home.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Nind_home.BorderSizePixel = 0
-Nind_home.Position = UDim2.new(0.0290322565, 0, 0.514750481, 0)
-Nind_home.Size = UDim2.new(0, 132, 0, 44)
-Nind_home.Font = Enum.Font.SourceSans
-Nind_home.Text = "Nind_home"
-Nind_home.TextColor3 = Color3.fromRGB(0, 0, 0)
-Nind_home.TextScaled = true
-Nind_home.TextSize = 14.000
-Nind_home.TextWrapped = true
-Nind_home.MouseButton1Click:Connect(function()
+Home.Name = "Home"
+Home.Parent = Frame
+Home.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0290322565, 0, 0.514750481, 0)
+Home.Size = UDim2.new(0, 132, 0, 44)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextScaled = true
+Home.TextSize = 14.000
+Home.TextWrapped = true
+Home.MouseButton1Click:Connect(function()
 print'Home'
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/gui'))()
 end)
