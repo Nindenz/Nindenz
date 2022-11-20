@@ -201,6 +201,9 @@ Fe:NewButton("Fe Mouse Fling", ".E. To Fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/4CzHgSGh", true))()
 end)
 
+Fe:NewButton("Walk on Walls", ".E. To Fling", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WY7tBjdE", true))()
+end)
 
 Fe:NewButton("Human Cat", ".E. To Fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
