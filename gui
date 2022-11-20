@@ -211,8 +211,12 @@ end)
 
 local Fe = Tab:NewSection("Want to have Fun")
 
-Fe:NewButton("Walk on Walls", "walk on walls like spiderman?", function()
+Fe:NewButton("Walk on Walls", "walk on walls like spiderman", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WY7tBjdE", true))()
+end)
+
+Fe:NewButton("spider", "very scary", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fELtc91f", true))()
 end)
 
 ----------------------------------------NHelp-
