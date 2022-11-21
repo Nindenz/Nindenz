@@ -106,6 +106,20 @@ Game:NewButton("4 gui", "chaos version", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/1HuVSGVQ"))()
 end)
 
+local Game = Tab:NewSection("Sniper")
+
+Game:NewButton("Cash", "Unlimited Cash", function()
+local args = {
+   [1] = game:GetService("Players").LocalPlayer,
+   [2] = "999999999999999999"
+}
+game:GetService("ReplicatedStorage").updateCash:FireServer(unpack(args))
+end)
+
+Game:NewButton("DisticH.", "it's easy to kill people", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
+end)
+
 ----------------------------------------LocalPlayer-
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayer = Tab:NewSection("Local")
