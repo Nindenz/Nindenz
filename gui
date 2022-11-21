@@ -108,7 +108,7 @@ end)
 
 local Game = Tab:NewSection("Sniper")
 
-Game:NewButton("Cash", "Unlimited Cash", function()
+Game:NewButton("Get Cash", "Unlimited Cash", function()
 local args = {
    [1] = game:GetService("Players").LocalPlayer,
    [2] = "999999999999999999"
