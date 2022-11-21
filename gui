@@ -261,7 +261,7 @@ Owner:NewLabel("[+]New Fe!")
 ---------------------End--Script-
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-Title = "Now"; -- the title 
+Title = "Script"; -- the title 
 Text = "XThe_Future_GoneX (Version-2.6)";
 Duration = 10;
 })
