@@ -256,7 +256,7 @@ local Owner = Tab:NewSection("https://web.roblox.com/users/3566287908/")
 local Owner = Tab:NewSection("script new update now: 20/11/2022")
 
 Owner:NewLabel("What New")
-Owner:NewLabel("[+]New Fe!")
+Owner:NewLabel("[+]New Script")
 
 ---------------------End--Script-
 wait(0.5)
