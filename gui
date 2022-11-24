@@ -241,6 +241,10 @@ Fe:NewButton("flip", "back/front flip", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Bacflip%20Test'),true))()
 end)
 
+Fe:NewButton("Worm", "Become a disgusting worm", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Snake%20Tst'),true))()
+end)
+
 ----------------------------------------NHelp-
 local Tab = Window:NewTab("NHelp")
 local NHelp = Tab:NewSection("Fe Script ?.reset you character from menu for back")
