@@ -4,7 +4,7 @@ local Window = Library.CreateLib("XThe_Future_GoneX (Version-2.6)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
-local Script = Tab:NewSection("Fun")
+local Script = Tab:NewSection("Script")
 
 Script:NewButton("Punch", "if you hit people,will be fling", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YPZ0wNaw'))()
@@ -223,7 +223,7 @@ Fe:NewButton("Human Cat", ".E. To Fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
 end)
 
-local Fe = Tab:NewSection("Want to have Fun")
+local Fe = Tab:NewSection("Fun")
 
 Fe:NewButton("Walk on Walls", "walk on walls like spiderman", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WY7tBjdE", true))()
@@ -247,13 +247,13 @@ local NHelp = Tab:NewSection("Fe Script ?.reset you character from menu for back
 
 local NHelp = Tab:NewSection("rejoin script seems a bit broken")
 local NHelp = Tab:NewSection("Fe Mouse Fling .E. To Move")
-
+local NHelp = Tab:NewSection("Flip control.|Z front/X back flip|")
 ----------------------------------------Owner-
 local Tab = Window:NewTab("Owner")
 local Owner = Tab:NewSection("The creator of this script is (NinDenZ)")
 local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
 local Owner = Tab:NewSection("https://web.roblox.com/users/3566287908/")
-local Owner = Tab:NewSection("script new update now: 20/11/2022")
+local Owner = Tab:NewSection("script new update now: 24/11/2022")
 
 Owner:NewLabel("What New")
 Owner:NewLabel("[+]New Script")
