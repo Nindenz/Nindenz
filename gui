@@ -266,7 +266,6 @@ Text = "XThe_Future_GoneX (Version-2.6)";
 Duration = 10;
 })
 
-print'Working!'
-print'Welcome (:D)'
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Print%20F%20Test'),true))()
 
 ---------------------Nothing-
