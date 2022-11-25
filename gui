@@ -264,7 +264,7 @@ local Owner = Tab:NewSection("script new update now: 24/11/2022")
 Owner:NewLabel("What New")
 Owner:NewLabel("[+]New Script")
 
-Setting:NewTextBox("Test", "Soon!", function(txt)
+Owner:NewTextBox("Test", "Soon!", function(txt)
 	setclipboard("(txt)")
 end)
 
