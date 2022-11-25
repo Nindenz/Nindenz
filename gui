@@ -147,6 +147,10 @@ LocalPlayer:NewButton("GodMode", "Health To God", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/jyVVfCGk",true))()
 end)
 
+LocalPlayer:NewTextBox("Fov", "Change Fov you want", function(txt)
+	game:GetService'Workspace'.Camera.FieldOfView = (txt)
+end)
+
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
