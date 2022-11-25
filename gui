@@ -151,6 +151,10 @@ LocalPlayer:NewTextBox("Fov", "Change Fov you want", function(txt)
 	game:GetService'Workspace'.Camera.FieldOfView = (txt)
 end)
 
+LocalPlayer:NewButton("Reset Fov", "back like before", function()
+game:GetService'Workspace'.Camera.FieldOfView = 70
+end)
+
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
