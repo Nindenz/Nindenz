@@ -281,5 +281,5 @@ Duration = 10;
 })
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Print%20F%20Test'),true))()
-
+print("h")
 ---------------------Nothing-
