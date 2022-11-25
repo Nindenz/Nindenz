@@ -256,13 +256,17 @@ local NHelp = Tab:NewSection("Flip control.|Z front/X back flip|")
 local Tab = Window:NewTab("Owner")
 local Owner = Tab:NewSection("Made by (NinDenZ)")
 local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
-u:Button("maxgat5#8395",function()
-    setclipboard("https://web.roblox.com/users/3566287908/profile")
-end)
+Owner:NewButton("Account", "copy link roblox ", function()
+setclipboard("https://web.roblox.com/users/3566287908/profile")
+end))
 local Owner = Tab:NewSection("script new update now: 24/11/2022")
 
 Owner:NewLabel("What New")
 Owner:NewLabel("[+]New Script")
+
+Setting:NewTextBox("Test", "Soon!", function(txt)
+	setclipboard("(txt)")
+end)
 
 ---------------------End--Script-
 wait(0.5)
