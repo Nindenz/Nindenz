@@ -1,6 +1,6 @@
 ----------------------------------------Enter-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("XThe_Future_GoneX (Version-2.6)", "Serpent")
+local Window = Library.CreateLib("Dead_Flower (Version-2.6)", "Serpent")
 
 ----------------------------------------Script-
 local Tab = Window:NewTab("Script")
@@ -240,7 +240,11 @@ Fe:NewButton("Fe Mouse Fling", ".E. To Fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/4CzHgSGh", true))()
 end)
 
-Fe:NewButton("Human Cat", ".E. To Fling", function()
+Fe:NewButton("Human Cat", "Fe Cat", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
+end)
+
+Fe:NewButton("floating flinger", "can float, and can fling player", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
 end)
 
@@ -280,19 +284,20 @@ local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
 Owner:NewButton("Account", "copy link roblox ", function()
 setclipboard("https://web.roblox.com/users/3566287908/profile")
 end)
-local Owner = Tab:NewSection("script new update now: 24/11/2022")
+local Owner = Tab:NewSection("script new update now: 27/11/2022")
 
 Owner:NewLabel("What New")
 Owner:NewLabel("[+]New Script")
+Owner:NewLabel("Change Name")
 
 ---------------------End--Script-
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Script"; -- the title 
-Text = "XThe_Future_GoneX (Version-2.6)";
+Text = "Dead_Flower (Version-2.6)";
 Duration = 10;
 })
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Print%20F%20Test'),true))()
-print("h")
+
 ---------------------Nothing-
