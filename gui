@@ -136,7 +136,7 @@ LocalPlayer:NewSlider("JumpPower", "Jump To High", 1000, 0, function(s) -- 1000 
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-LocalPlayer:NewButton("Reset s/j", "reset speed jump", function()
+LocalPlayer:NewButton("Reset WalkSpeed&JumpPower", "reset speed jump", function()
  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
  game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
