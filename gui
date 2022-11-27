@@ -34,6 +34,10 @@ Script:NewButton("noclip gui", "through wall", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/9LBsfRkD",true))()
 end)
 
+Script:NewButton("Universal Fling All", "Fling", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/loop%20fling%20all'))()
+end)
+
 ----------------------------------------Protection-
 local Tab = Window:NewTab("Protection")
 local Bypass = Tab:NewSection("Bypass")
