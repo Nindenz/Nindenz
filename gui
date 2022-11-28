@@ -14,7 +14,7 @@ Script:NewButton("Punch", "if you hit people,will be fling", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YPZ0wNaw'))()
 end)
 
-Script:NewButton("UFling", "if you come closer people will fling", function()
+Script:NewButton("ULTIMATE Fling", "if you come closer people will fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/GfwkiUTV", true))()
 end)
 
