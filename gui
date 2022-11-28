@@ -236,7 +236,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
 end)
 
 Fe:NewButton("floating flinger", "can float, and can fling player", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/NS01DLjc", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/fffe", true))()
 end)
 
 local Fe = Tab:NewSection("Fun")
