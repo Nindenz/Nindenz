@@ -6,6 +6,10 @@ local Window = Library.CreateLib("Dead_Flower (Version-2.6)", "Serpent")
 local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
+Script:NewButton("Troll Chat", "IDK", function()
+loadstring(game:HttpGet('https://pastebin.com/AcS82XT7'))()
+end)
+
 Script:NewButton("Punch", "if you hit people,will be fling", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YPZ0wNaw'))()
 end)
