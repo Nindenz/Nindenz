@@ -130,7 +130,7 @@ end)
 
 local Game = Tab:NewSection("Gamepass")
 
-Game:NewTextBox("Profile Id", "id profile who is a game.id maker and get gamepass", function(txt)
+Game:NewTextBox("Profile Id", "ID profile,is created by the game creator. and get gamepass", function(txt)
 	game.Players.LocalPlayer.UserId = (txt)
 end)
 
@@ -289,11 +289,11 @@ local Owner = Tab:NewSection("Roblox Account Name:Fay11357")
 Owner:NewButton("Account", "copy link roblox ", function()
 setclipboard("https://web.roblox.com/users/3566287908/profile")
 end)
-local Owner = Tab:NewSection("script new update now: 27/11/2022")
+local Owner = Tab:NewSection("script new update now: 29/11/2022")
 
 Owner:NewLabel("What New")
-Owner:NewLabel("[+]New Script")
-Owner:NewLabel("Change Name")
+Owner:NewLabel("[+]New Free Gamepass")
+Owner:NewLabel("get profile id, person whose game contains robux!")
 
 ---------------------End--Script-
 wait(0.5)
