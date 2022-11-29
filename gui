@@ -187,6 +187,10 @@ FreeHub:NewButton("Kater hub", "Hub Other Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
 end)
 
+FreeHub:NewButton("Orca hub", "hot hub", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+end)
+
 ----------------------------------------Admin-
 local Tab = Window:NewTab("Admin Command")
 local Admin = Tab:NewSection("Free Admin")
