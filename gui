@@ -314,6 +314,18 @@ Fe:NewButton("Worm", "Become a disgusting worm", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Snake%20Tst'),true))()
 end)
 
+local Fe = Tab:NewSection("Hat")
+
+Fe:NewButton("HoverBoard", "Fe HoverBoard Need Hat", function()
+setclipboard("https://pastebin.com/raw/ZXhgyQTF")
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script"; -- the title 
+Text = "The script has been copied";
+Duration = 4;
+})
+end)
+
 ----------------------------------------NHelp-
 local Tab = Window:NewTab("NHelp")
 local NHelp = Tab:NewSection("Fe Script ?.reset you character from menu for back")
