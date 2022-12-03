@@ -169,6 +169,13 @@ LocalPlayer:NewButton("Reset Fov", "back like before", function()
 game:GetService'Workspace'.Camera.FieldOfView = 70
 end)
 
+LocalPlayer:NewTextBox("Teleport To Player", "NAME___", function(txt)
+targetUsername = (txt)
+players = game:GetService("Players")
+targetPlayer = players:FindFirstChild(targetUsername)
+players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
+end)
+
 ----------------------------------------Hub-G&S-
 local Tab = Window:NewTab("Hub")
 local FreeHub = Tab:NewSection("all hub")
