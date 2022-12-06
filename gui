@@ -30,6 +30,10 @@ Script:NewButton("FE Physics Gun", "Fe gun", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/q5w0pxEq'))()
 end)
 
+Script:NewButton("FE GRAVITY Gun", "Fe gun", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Fe%20gravity%20gun'))()
+end)
+
 Script:NewButton("Btools", "Delete,Copy,Move Tools", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu",true))()
 end)
