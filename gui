@@ -6,6 +6,19 @@ local Window = Library.CreateLib("Dead_Flower (Version-2.6)", "Serpent")
 local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
+Script:NewButton("Click TP Tool", "tool that is clicked will teleport", function()
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Click Teleport"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
 Script:NewButton("Troll Chat", "IDK", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/AcS82XT7'))()
 end)
