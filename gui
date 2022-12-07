@@ -340,6 +340,10 @@ Fe:NewButton("Become flag", "change the color, and become a flag", function()
 loadstring(game:HttpGet(('https://gist.githubusercontent.com/Gogogamer61/9dfef86c0f09498af244509609f2b940/raw/a6177f2bbdfde2d4362e6600779b90a01aee1fb2/BecomeUkraineFlag'),true))()
 end)
 
+Fe:NewButton("CloVr", "IDK", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/aDCUZLwc'),true))()
+end)
+
 Fe:NewButton("flip", "back/front flip", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Bacflip%20Test'),true))()
 end)
