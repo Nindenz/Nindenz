@@ -148,6 +148,12 @@ Game:NewButton("DisticH.", "it's easy to kill people", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
 end)
 
+local Game = Tab:NewSection("Natural Disaster Survival")
+
+Game:NewButton("No Fall Damage", "fall not die", function()
+game.Players.LocalPlayer.Character.FallDamageScript:Destroy()
+end)
+
 local Game = Tab:NewSection("Gamepass")
 
 Game:NewTextBox("Profile Id", "ID profile,is created by the game creator. and get gamepass", function(txt)
