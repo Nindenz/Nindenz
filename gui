@@ -278,6 +278,10 @@ Admin:NewButton("Cmd-X", "Admin Fun", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
 end)
 
+Admin:NewButton("Fatest Admin", "Cmds____", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
 ----------------------------------------Setting-
 local Tab = Window:NewTab("Setting")
 local Setting = Tab:NewSection("Keybind")
