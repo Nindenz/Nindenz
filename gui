@@ -34,6 +34,10 @@ Script:NewButton("FE GRAVITY Gun", "Fe gun", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Nindenz/Nindenz/main/Fe%20gravity%20gun'))()
 end)
 
+Script:NewButton("FE Telekinesis", "Fe gun", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/57VYtYVe'))()
+end)
+
 Script:NewButton("Btools", "Delete,Copy,Move Tools", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu",true))()
 end)
