@@ -7,11 +7,15 @@ local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
 Script:NewButton("Click TP Tool", "tool that is clicked will teleport", function()
-loadstring(game:HttpGet('patched'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/VKugp7A9'))()
 end)
 
-Script:NewButton("Troll Chat", "IDK", function()
+Script:NewButton("Troll Chat", "troll people with cat", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/AcS82XT7'))()
+end)
+
+Script:NewButton("Fly", "Fly gui toggle", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
 end)
 
 Script:NewButton("Punch", "if you hit people,will be fling", function()
@@ -26,7 +30,7 @@ Script:NewButton("Rejoin", "Rejoin game", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
 end)
 
-Script:NewButton("Spectate", "Can see everyoner", function()
+Script:NewButton("Spectate", "Can see everyone", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/WgpJfMGS",true))()
 end)
 
@@ -140,6 +144,16 @@ end)
 
 Game:NewButton("4 gui", "chaos version", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/1HuVSGVQ"))()
+end)
+
+local Game = Tab:NewSection("Squid Game 99%fail")
+
+Game:NewButton("Auto Checker", "Cheating to use", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+end)
+
+Game:NewButton("Auto Checker", "Cheating to use", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0HerFGLL', true))()
 end)
 
 local Game = Tab:NewSection("Sniper")
@@ -284,6 +298,10 @@ end)
 
 Admin:NewButton("Fatest Admin", "Cmds____", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+Admin:NewButton("Ultimate Admin", "IDK", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/u6MieV02"))();
 end)
 
 ----------------------------------------Setting-
