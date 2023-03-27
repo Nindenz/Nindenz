@@ -7,7 +7,7 @@ local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
 Script:NewButton("Click TP Tool", "tool that is clicked will teleport", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/Click%20TP%20Tool.lua'))()
+loadstring(game:HttpGet('patched'))()
 end)
 
 Script:NewButton("Troll Chat", "IDK", function()
