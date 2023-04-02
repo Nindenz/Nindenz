@@ -7,15 +7,19 @@ local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
 Script:NewButton("Click TP Tool", "tool that is clicked will teleport", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/VKugp7A9'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/0HerFGLL'))()
 end)
 
 Script:NewButton("Troll Chat", "troll people with cat", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/AcS82XT7'))()
 end)
 
+Script:NewButton("Script Finder", "It finds script for you without leaving the game!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+
 Script:NewButton("Fly", "Fly gui toggle", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/W5aQUui6",true))()
 end)
 
 Script:NewButton("Punch", "if you hit people,will be fling", function()
@@ -28,6 +32,10 @@ end)
 
 Script:NewButton("Rejoin", "Rejoin game", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yVdXMaFy",true))()
+end)
+
+Script:NewButton("keyboard", "keyboard mobile script", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/mob.txt'),true))()
 end)
 
 Script:NewButton("Spectate", "Can see everyone", function()
@@ -152,8 +160,8 @@ Game:NewButton("Auto Checker", "Cheating to use", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
 end)
 
-Game:NewButton("Auto Checker", "Cheating to use", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/0HerFGLL', true))()
+Game:NewButton("Path", "can see the glass right", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3Zgmv5eF"))()
 end)
 
 local Game = Tab:NewSection("Sniper")
@@ -180,6 +188,10 @@ local Game = Tab:NewSection("Gamepass")
 
 Game:NewTextBox("Profile Id", "ID profile,is created by the game creator. and get gamepass", function(txt)
 	game.Players.LocalPlayer.UserId = (txt)
+end)
+
+Game:NewTextBox("Free tools free gamepass", "IDK", function(txt)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Balligusapos/Balligusapos/main/Letsreach7k"))()
 end)
 
 ----------------------------------------LocalPlayer-
@@ -326,6 +338,12 @@ local Setting = Tab:NewSection("Executor")
 
 Setting:NewButton("Synapse X", "Executor Script Execute", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nindenz/Nindenz/main/Synapse%20x", true))()
+end)
+
+Setting:NewButton("Executor Function Searcher", "IDK", function()
+_G.Search = "info" -- for all functions put "all"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/Executor-Function-Searcher/main/finder.lua"))()
 end)
 
 ----------------------------------------Fe-
