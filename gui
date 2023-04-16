@@ -144,6 +144,10 @@ Game:NewButton("FlyCar", "Super Car", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/3biW92gZ"))()
 end)
 
+Game:NewButton("Disable tools gui", "Super Tools kill", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+end)
+
 local Game = Tab:NewSection("Chaos")
 
 Game:NewButton("ro-flux", "Dupe,Gamepass,killplayer", function()
