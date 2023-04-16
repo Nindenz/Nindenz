@@ -7,7 +7,7 @@ local Tab = Window:NewTab("Script")
 local Script = Tab:NewSection("Script")
 
 Script:NewButton("Click TP Tool", "tool that is clicked will teleport", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/0HerFGLL'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/JY3ynnb4'))()
 end)
 
 Script:NewButton("Troll Chat", "troll people with cat", function()
@@ -190,7 +190,7 @@ Game:NewTextBox("Profile Id", "ID profile,is created by the game creator. and ge
 	game.Players.LocalPlayer.UserId = (txt)
 end)
 
-Game:NewTextBox("Free tools free gamepass", "IDK", function(txt)
+Game:NewButton("Free Tool Free Gamepass", "IDK", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Balligusapos/Balligusapos/main/Letsreach7k"))()
 end)
 
@@ -342,8 +342,11 @@ end)
 
 Setting:NewButton("Executor Function Searcher", "IDK", function()
 _G.Search = "info" -- for all functions put "all"
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/Executor-Function-Searcher/main/finder.lua"))()
+end)
+
+Setting:NewButton("Executor KRNL UI", "Executor ui mobile", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
 end)
 
 ----------------------------------------Fe-
